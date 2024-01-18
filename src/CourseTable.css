@@ -1,0 +1,22 @@
+/* CourseTable.css */
+
+.actions-container {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .column-spacing {
+    padding-right: 20px;
+  }
+  
+  .edit {
+    background-color: blue;
+    color: white;
+  }
+  
+  .delete {
+    background-color: red;
+    color: white;
+  }
+  
+  

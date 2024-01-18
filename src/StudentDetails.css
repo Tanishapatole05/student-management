@@ -1,0 +1,35 @@
+/* StudentDetails.css */
+
+.actions-container {
+    display: flex;
+    gap: 5px; 
+  }
+  
+  .column-spacing {
+    padding-right: 10px; 
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  button.add {
+    background-color: green;
+    color: white;
+  }
+  
+  button.edit {
+    background-color: blue;
+    color: white;
+  }
+  
+  button.delete {
+    background-color: red;
+    color: white;
+  }
+  

@@ -1,0 +1,20 @@
+/* Sidebar.css */
+
+.sidebar-list-item {
+    position: relative;
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .nested-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-top: -10px; 
+  }
+  
+  .sidebar-list-item:hover .nested-menu {
+    display: block;
+  }
+  
